@@ -15,12 +15,14 @@ The mod uses the same materials, stamina, skill XP, and events as normal refinin
 
 ## Building
 
-Update `GameFolder` in `QuickSmithing.csproj` if Bannerlord is installed somewhere else, then run:
+Update `DriveLetter` and `GameFolder` in `QuickSmithing.csproj` if Bannerlord is installed somewhere else, then run:
 
 ```sh
 dotnet build -c Release
 ```
 
 The compiled module is copied to `QuickSmithing/`, which can be dropped into the game's `Modules` folder.
+
+If the module is not copied to `Modules`, manually copy and paste the `Quicksmithing` folder over into `Modules`, the same way you install any other mod.
 
 *Made with OpenCode*
